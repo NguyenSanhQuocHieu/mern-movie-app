@@ -3,12 +3,6 @@
 Người dùng có thể đăng ký, đăng nhập, xem phim, thêm vào yêu thích và đánh giá phim.  
 Ngoài ra, có giao diện quản trị (Admin) để quản lý nội dung phim.
 
----
-(ADMIN)
-quochieu@gmail.com
-quochieu2
----
-
 ## Tính năng chính
 
 - Đăng ký / Đăng nhập người dùng
@@ -50,20 +44,3 @@ JWT_SECRET=chuỗi_bí_mật_bảo_mật,
 CLOUDINARY_CLOUD_NAME=tên_cloudinary,
 CLOUDINARY_API_KEY=api_key_cloudinary,
 CLOUDINARY_API_SECRET=api_secret_cloudinary,
-
-Cách chạy dự án trên máy
-
-**1.Tải project về:**
-```bash
-git clone https://github.com/nsqhieu/qhieu.git
-cd qhieu
-
-cd server
-npm install
-npm start
-
-cd ../client
-npm install
-npm start
-
-Sau đó mở trình duyệt và truy cập: http://localhost:3000
